@@ -8,30 +8,28 @@ public class App {
         CherryNumericArray specialArrayOperations = new CherryNumericArray(a1);
 
         String array = specialArrayOperations.Display();
-        System.out.println(array);
+        System.out.println("Display(): " + array);
 
         String arrayBackwards = specialArrayOperations.DisplayBackwards();
-        System.out.println(arrayBackwards);
-
+        System.out.println("DisplayBackwards(): " + arrayBackwards);
 
         float average = specialArrayOperations.GetAverage();
-        System.out.println(average);
+        System.out.println("Average: " + average);
 
         int smallest = specialArrayOperations.FindSmallest();
-        System.out.println(smallest);
+        System.out.println("FindSmallest(): " + smallest);
 
         int sum = specialArrayOperations.GetSum();
-        System.out.println(sum);
+        System.out.println("GetSum(): " + sum);
 
         Boolean result1 = specialArrayOperations.Contains(5);
-        System.out.println(result1);
+        System.out.println("Contains(5): " + result1);
 
         Boolean result2 = specialArrayOperations.Contains(-5);
-        System.out.println(result2);
+        System.out.println("Contains(-5): " + result2);
 
         String sortedArray = specialArrayOperations.DisplaySortedAscending();
-        System.out.println(sortedArray);
-
+        System.out.println("DisplaySortedAscending(): " + sortedArray);
 
     }
 
